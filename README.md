@@ -12,44 +12,44 @@ The main goal of this project was to practice and reinforce fundamental machine 
 
 The project uses the Pima Indians Diabetes Dataset, which contains medical information about patients, including:
 
-Pregnancies
-Glucose
-Blood Pressure
-Skin Thickness
-Insulin
-BMI
-Diabetes Pedigree Function
-Age
+- Pregnancies
+- Glucose
+- Blood Pressure
+- Skin Thickness
+- Insulin
+- BMI
+- Diabetes Pedigree Function
+- Age
 
 =>  https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database 
 
 # Target variable:
 
-0 = Non-diabetic
-1 = Diabetic
+- 0 = Non-diabetic
+- 1 = Diabetic
 
 # Technologies Used
 
-Python
-NumPy
-Pandas
-Scikit-learn
-Google Colab
+- Python
+- NumPy
+- Pandas
+- Scikit-learn
+- Google Colab
 
 # Machine Learning Workflow
 
-Load and explore the dataset.
-Analyze data distributions and class counts.
-Separate features and labels.
-Standardize the feature values using StandardScaler.
-Split the dataset into training and testing sets.
-Train a Support Vector Machine (SVM) classifier.
-Evaluate model performance using accuracy score.
-Build a simple predictive system for new patient data.
+- Load and explore the dataset.
+- Analyze data distributions and class counts.
+- Separate features and labels.
+- Standardize the feature values using StandardScaler.
+- Split the dataset into training and testing sets.
+- Train a Support Vector Machine (SVM) classifier.
+- Evaluate model performance using accuracy score.
+- Build a simple predictive system for new patient data.
 
 # Results
-Training Accuracy: Approximately 78.7%
-Testing Accuracy: Approximately 77.3%
+- Training Accuracy: Approximately 78.7%
+- Testing Accuracy: Approximately 77.3%
 
 The training and testing accuracies are relatively close, indicating that the model generalizes reasonably well on unseen data.
 
@@ -57,21 +57,21 @@ The training and testing accuracies are relatively close, indicating that the mo
 
 Through this project, I practiced:
 
-Data preprocessing and cleaning
-Feature scaling using StandardScaler
-Train-test splitting
-Working with Scikit-learn
-Training an SVM classifier
-Evaluating classification models
-Making predictions on new data
+- Data preprocessing and cleaning
+- Feature scaling using StandardScaler
+- Train-test splitting
+- Working with Scikit-learn
+- Training an SVM classifier
+- Evaluating classification models
+- Making predictions on new data
 
 # Future Improvements
 
-Perform hyperparameter tuning
-Compare SVM with Logistic Regression and Random Forest
-Use cross-validation
-Handle missing or zero values more carefully
-Build a web application using Streamlit or Flask
+- Perform hyperparameter tuning
+- Compare SVM with Logistic Regression and Random Forest
+- Use cross-validation
+- Handle missing or zero values more carefully
+- Build a web application using Streamlit or Flask
 
 # Educational Purpose
 
